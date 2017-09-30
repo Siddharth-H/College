@@ -32,6 +32,7 @@ int main()
 	printf( "\nresult 1::%d\n\n\n",findDigits(1) );
 	printf( "\nresult 5::%d\n\n\n",findDigits(5) );
 	printf( "\nresult 10::%d\n\n\n",findDigits(10) );
-	printf( "\nresult 120::%d\n\n\n",findDigits(120) );
+ 	printf( "\nresult 120::%d\n\n\n",findDigits(120) );
+	printf( "\nresult 120::%d\n\n\n",findDigits(150);
 }
 
