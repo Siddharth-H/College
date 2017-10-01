@@ -19,9 +19,15 @@ int findDigits(int n)
 	// else iterate through n and calculate the
 	// value
 	double digits = 0;
-	for (i=2; i<=n; i++){
+// 	for (i=2; i<=n; i++){
+// 		digits += log10(i);
+//         printf("i = %d --> %lf\n",i,digits); 
+// 	}
+	i =2;
+	while(i<=n){
 		digits += log10(i);
-        printf("i = %d --> %lf\n",i,digits); 
+        	printf("i = %d --> %lf\n",i,digits);
+		i++;
 	}
 	return floor(digits) + 1;
 }
